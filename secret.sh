@@ -4,7 +4,7 @@
 
 # TODO: Ask user for max input
 max=100
-target=26
+target=50
 
 # Fonction qui va écrire plus ou moins, deux arguments: la cible et la proposition
 print_more_or_less() {
@@ -15,7 +15,7 @@ print_more_or_less() {
     echo "C'est moins"
     exit 2
   else
-    echo "Bravo ! La réponse était $target."
+    echo "Bravo ! La réponse est $target."
   fi
 }
 
