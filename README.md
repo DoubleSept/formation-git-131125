@@ -7,4 +7,4 @@ Usage: `./main.sh`
 - [ ] Add "--max" parameter
 - [ ] Use english in messages
 - [ ] Add "--answer" parameter (for tests)
-- [ ] Save highscore.csv with "name,score"
+- [X] Save highscore.csv with "name,score"
