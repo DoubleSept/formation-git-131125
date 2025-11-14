@@ -1,3 +1,5 @@
 *.patch
-score.txt
+*.txt
 _all_libs
+*.pdf
+
