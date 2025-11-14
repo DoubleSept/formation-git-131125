@@ -31,5 +31,5 @@ while [[ $guess -ne $target ]]; do
   guess_nb=$((guess_nb+1))
 done
 
-# Victoire !
+# Victory!
 echo "Vous avez trouvé en $guess_nb coups !"
