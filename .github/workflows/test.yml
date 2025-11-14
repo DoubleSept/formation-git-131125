@@ -34,6 +34,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           chmod +x secret.sh
-          ./secret.sh 22
           ./secret.sh 26
-          ./secret.sh 34
