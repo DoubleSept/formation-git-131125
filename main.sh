@@ -29,7 +29,16 @@ guess_nb=0
 # Autre commentaire: tant que la proposition est différente de la cible
 
 while [[ $guess -ne $target ]]; do
-  read -p "Votre proposition: " guess
+  while true; do
+    read -p "Votre proposition: " guess
+
+    if [[ $guess =~ ^[0-9]+$ ]]; then
+      break
+    else
+      echo "Veuillez entrer un nombre valide !"
+    fi
+  done
+
   print_more_or_less $target $guess
   guess_nb=$((guess_nb+1))
 done

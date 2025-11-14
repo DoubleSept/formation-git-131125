@@ -2,9 +2,10 @@
 
 Usage: `./main.sh`
 
-## Missing features :
+## Missing features
+
 - [ ] Only accept numbers
 - [ ] Add "--max" parameter
 - [ ] Use english in messages
 - [ ] Add "--answer" parameter (for tests)
-- [ ] Save highscore.csv with "name & score"
+- [ ] Save highscore.csv with "name,score"
