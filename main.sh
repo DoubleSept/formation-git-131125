@@ -46,3 +46,4 @@ done
 # Victoire !
 echo "Vous avez trouvé en $guess_nb coups !"
 
+echo "Highscore"
