@@ -3,6 +3,7 @@
 # Jeu du Plus ou moins
 
 # TODO: Ask user for max input
+echo "zaza is back"
 max=100
 target=$((RANDOM % $max + 1))
 
