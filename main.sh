@@ -5,7 +5,7 @@
 # TODO: Ask user for max input
 max=1000
 target=$((RANDOM % $max + 1))
-
+pl
 # Fonction qui va écrire plus ou moins, deux arguments: la cible et la proposition
 print_more_or_less() {
   if [[ $2 -lt $1 ]]; then
