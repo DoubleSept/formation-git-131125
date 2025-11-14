@@ -13,7 +13,7 @@ print_more_or_less() {
   elif [[ $2 -gt $1 ]]; then
     echo "C'est moins"
   else
-    echo "Bravo champion ! La réponse était $target."
+    echo "Bravo ! La réponse était $target."
   fi
 }
 
