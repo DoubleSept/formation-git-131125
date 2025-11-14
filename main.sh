@@ -3,7 +3,8 @@
 # Jeu du Plus ou moins
 
 # TODO: Ask user for max input
-max=1000
+echo "zaza is back"
+max=100
 target=$((RANDOM % $max + 1))
 
 # Fonction qui va écrire plus ou moins, deux arguments: la cible et la proposition
