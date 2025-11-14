@@ -25,6 +25,8 @@ guess=0
 guess_nb=0
 
 # Boucle principale (on demande un chiffre à chaque itération)
+# Autre commentaire: tant que la proposition est différente de la cible
+
 while [[ $guess -ne $target ]]; do
   read -p "Votre proposition: " guess
   print_more_or_less $target $guess
@@ -33,3 +35,4 @@ done
 
 # Victoire !
 echo "Vous avez trouvé en $guess_nb coups !"
+
