@@ -10,8 +10,10 @@ target=26
 print_more_or_less() {
   if [[ $2 -lt $1 ]]; then
     echo "C'est plus"
+    exit 1
   elif [[ $2 -gt $1 ]]; then
     echo "C'est moins"
+    exit 2
   else
     echo "Bravo ! La réponse était $target."
   fi
