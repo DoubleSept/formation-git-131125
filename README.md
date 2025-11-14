@@ -8,3 +8,6 @@ Usage: `./main.sh`
 - [ ] Use english in messages
 - [ ] Add "--answer" parameter (for tests)
 - [ ] Save highscore.csv with "name,score"
+
+read -p "Votre pseudo : " nickname
+echo "$nickname,$guess_nb" >> score.txt
