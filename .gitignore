@@ -1,3 +1,4 @@
 *.patch
 score.txt
 _all_libs
+.env.local

@@ -24,7 +24,7 @@ guess=0
 # Guess number
 guess_nb=0
 
-# Boucle principale (on demande un chiffre à chaque itération)
+# Boucle principale (🍾🍾)
 while [[ $guess -ne $target ]]; do
   read -p "Votre proposition: " guess
   print_more_or_less $target $guess
